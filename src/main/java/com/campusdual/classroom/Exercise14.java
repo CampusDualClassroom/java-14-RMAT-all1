@@ -7,6 +7,18 @@ public class Exercise14 {
         Teacher t = new Teacher("Maria", "Montessori", "Educación");
         PoliceOfficer po = new PoliceOfficer("Jake", "Peralta", "B-99");
         Doctor d = new Doctor("Gregory", "House", "Nefrología e Infectología");
+
+        System.out.println("Detalles de Person: ");
+        p.getDetails();
+
+        System.out.println("Detalles de Teacher: ");
+        p.getDetails();
+
+        System.out.println("Detalles de PoliceOfficer: ");
+        p.getDetails();
+
+        System.out.println("Detalles de Doctor: ");
+        p.getDetails();
     }
 
 }
